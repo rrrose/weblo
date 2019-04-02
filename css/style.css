@@ -1,0 +1,58 @@
+.camera {
+    background: indianred;
+}
+
+.foto {
+    width: 338px;
+    height: 200px;
+}
+
+.col-9, .col-4 {
+    padding: 0px;
+}
+
+.social-media {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #cd3e3e;
+    line-height: 35px;
+    padding: 0px;
+    border-radius: 100%;
+} 
+
+.modal-foto {
+    height: 400px;
+    width: 600px;
+}
+
+.modal-content {
+    height: 480px;
+    width: 635px;
+}
+
+.btn {
+    background-color: #cd3e3e;
+    color: #fff;
+}
+
+.btn:hover {
+    color: #cd3e3e;
+    background-color: #fff;
+}
+
+.modal-footer {
+    background: #cd3e3e;
+}
+
+a {
+    color: #000000;
+  }
+
+  a:visited {
+    color: #000000;
+  }
+
+  a:hover {
+    color: #fff;
+  }

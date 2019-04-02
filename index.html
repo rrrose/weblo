@@ -1,40 +1,151 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Weblo</title>
-  </head>
-  <body>
-    <div class="container">
-        <div class="row">
-                <div class="col-md-3">
-                        <img src="imgs/camera.png" alt="">
-                        <h1>Capture</h1>
-                        <p>home</p>
-                        <p>gallery</p>
-                        <p>about</p>
-                        <p>blog</p>
-                        <p>contact</p>
-                    </div>
-        </div>
-        <div class="row">
-            <p>Follow us here!</p>
-        </div>
-        <div class="row"></div>
-        <div class="col-md-9"></div>
-    </div>
-    <h1>Capture</h1>
+</head>
 
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col camera text-center">
+                <img src="imgs/camera.png" alt="">
+                <h1>Capture</h1>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                </ul>
+                <br><br><br><br><br>
+                <p>Follow us here!</p>
+                <div class="col social-media">
+                    <img src="imgs/facebook.png" alt="">
+                </div>
+                <div class="col social-media">
+                    <img src="imgs/twitter.png" alt="">
+                </div>
+                <div class="col social-media">
+                    <img src="imgs/instagram.png" alt="">
+                </div>
+                <div class="col social-media">
+                    <img src="imgs/linkedin.png" alt="">
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="col-4 float-left">
+                    <img src="imgs/1.jpeg" alt="cacto no vaso" class="foto" data-toggle="modal" data-target="#Modal1">
+                </div>
+                <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p>&#9829;</p>
+                                <img src="imgs/1.jpeg" alt="" class="modal-foto">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/2.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal2">
+                </div>
+                <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p>&#9829;</p>
+                                <img src="imgs/2.jpeg" alt="" class="modal-foto">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/3.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal3">
+                </div>
+                <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p>&#9829;</p>
+                                <img src="imgs/3.jpeg" alt="" class="modal-foto">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/3.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal3">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/1.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal1">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/2.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal2">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/2.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal2">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/3.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal3">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/1.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal1">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/1.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal1">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/2.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal2">
+                </div>
+                <div class="col-4 float-left">
+                    <img src="imgs/3.jpeg" alt="" class="foto" data-toggle="modal" data-target="#Modal3">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
